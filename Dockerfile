@@ -13,7 +13,7 @@ RUN echo "force-unsafe-io" > \
 			wget python gnupg2 ca-certificates \
 			make cmake git bash sudo build-essential \
 			libc-dev libc++-dev python-dev python3-dev \
-			binutils gcc vim-nox qemu && \
+			binutils gcc vim-nox && \
 		useradd -ms /bin/bash docker && \
 		mkdir -p /home/docker/src && \
 		echo "docker  ALL=NOPASSWD: ALL" >> /etc/sudoers
